@@ -20,19 +20,17 @@ Neuroengineering + applied ML systems — I build closed-loop pipelines that tur
 ## 🚀 Cool things I’ve built
 - **[PeerPear](https://github.com/smkim0508/PeerPear)** — centralized, LLM-powered group pairing platform for student organizations  
   - Matches “bigs/littles” or mentors/mentees by collecting preferences and running an LLM-assisted grouping + compatibility workflow, then gives orgs a single dashboard to manage pairings and exports  
-  - Live demo: https://peerpear.vercel.app/  
+  - Live demo: https://peerpear.vercel.app/
+- **[PeriMind](https://perimind.ai/) ([GitHub](https://github.com/decaylee13/perimind))** — multi-agent AI assistant for intra-operative anesthesiology support  
+  - Ingests perioperative patient context and clinical guidelines to generate structured assessments and anesthesia/treatment recommendations via an orchestrated multi-agent workflow  
+  - Deployed clinical reasoning system → **95% accuracy** and **~2.1s latency**  
+  - Reduced GPU memory **35%** + inference time **45%** via quantization/pruning
 - **[LLM_Proofreading_Agent](https://github.com/decaylee13/LLM_Proofreading_Agent)** — benchmarking LLM proofreading performance through NeuroGlancer-style workflows
 - **Wafer Defect Segmentation (Kulite Semiconductors)**  
   - Fine-tuned **SAM + YOLO** on 10k+ images → **96% mIoU**  
   - Optimized YOLO inference pipeline → **+80% throughput**  
   - Automated **100GB+** preprocessing pipeline with AWS S3/EC2 + Python
 
----
-
-## 🏥 Clinical AI / Agents
-- **PeriMind Anesthesia** — multi-agent LLM diagnostic assistant  
-  - Deployed clinical reasoning system → **95% accuracy** and **~2.1s latency**  
-  - Reduced GPU memory **35%** + inference time **45%** via quantization/pruning
 
 ---
 
