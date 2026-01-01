@@ -18,10 +18,9 @@ Neuroengineering + applied ML systems — I build closed-loop pipelines that tur
 ---
 
 ## 🚀 Cool things I’ve built
-- **BCI-Controlled Autonomous Rover** *(PCB + signal processing + real-time vision)*  
-  - Designed/soldered **4 custom PCBs** (power/motor/video/sensor) and validated with oscilloscopes  
-  - Prototyped EEG-embedding → steering pipeline in Python/PyTorch  
-  - Added real-time obstacle avoidance with OpenCV  
+- **[PeerPear](https://github.com/smkim0508/PeerPear)** — centralized, LLM-powered group pairing platform for student organizations  
+  - Matches “bigs/littles” or mentors/mentees by collecting preferences and running an LLM-assisted grouping + compatibility workflow, then gives orgs a single dashboard to manage pairings and exports  
+  - Live demo: https://peerpear.vercel.app/  
 - **[LLM_Proofreading_Agent](https://github.com/decaylee13/LLM_Proofreading_Agent)** — benchmarking LLM proofreading performance through NeuroGlancer-style workflows
 - **Wafer Defect Segmentation (Kulite Semiconductors)**  
   - Fine-tuned **SAM + YOLO** on 10k+ images → **96% mIoU**  
