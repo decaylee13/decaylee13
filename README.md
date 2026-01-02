@@ -25,6 +25,10 @@ Neuroengineering + applied ML systems — I build closed-loop pipelines that tur
   - Ingests perioperative patient context and clinical guidelines to generate structured assessments and anesthesia/treatment recommendations via an orchestrated multi-agent workflow  
   - Deployed clinical reasoning system → **95% accuracy** and **~2.1s latency**  
   - Reduced GPU memory **35%** + inference time **45%** via quantization/pruning
+- **[PUnC Verilog Processor](https://github.com/decaylee13/verilog-punc-processor)** — synthesizable 16-bit LC3-style stored-program CPU for FPGA deployment  
+  - Implemented full fetch–decode–execute control with modular datapath + control unit in Verilog (unpipelined for reliability)  
+  - Built 128-entry memory (async read / sync write) and an 8-register (R0–R7) register file with condition codes (N/Z/P) and subroutine support (R7)  
+  - Supports core LC3 instruction subset: arithmetic (ADD/AND), memory ops (LD/LDI/LDR/LEA/ST/...), control flow (BR/JMP/JSR/RET), and HALT
 - **[LLM_Proofreading_Agent](https://github.com/decaylee13/LLM_Proofreading_Agent)** — benchmarking LLM proofreading performance through NeuroGlancer-style workflows
 - **Wafer Defect Segmentation (Kulite Semiconductors)**  
   - Fine-tuned **SAM + YOLO** on 10k+ images → **96% mIoU**  
